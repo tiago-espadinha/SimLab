@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SimLab</title>
-    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="icon" type="image/png" href="icon.svg" />
     <link rel="stylesheet" href="common.css" />
   </head>
   <body>
     <main class="app">
       <header class="app__header">
-        <h1 class="app__title">SimLab - Physics &amp; Visual Sandbox</h1>
-        <p class="app__subtitle">A few self-contained canvas simulations</p>
+        <img class="app__icon" src="icon.svg" alt="" />
+        <div >
+          <h1 class="app__title">SimLab &bull; Physics &amp; Visual Sandbox</h1>
+          <p class="app__subtitle">Self-contained canvas simulations</p>
+        </div>
       </header>
 
       <div class="gallery">
-        <a class="card" href="cloth/index.html">
+        <a class="card" href="cloth/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <rect x="9" y="9" width="46" height="46" fill="#f4a4cf" />
@@ -55,7 +58,7 @@
           </p>
         </a>
 
-        <a class="card" href="ripple/index.html">
+        <a class="card" href="ripple/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <circle cx="32" cy="32" r="5" fill="#0ea5e9" />
@@ -83,7 +86,7 @@
           </p>
         </a>
 
-        <a class="card" href="fractals/index.html">
+        <a class="card" href="fractals/">
           <div class="card__emoji">
             <svg viewBox="-4.2 0 64 64" aria-hidden="true">
               <path d="M46.25 32.00 L46.28 32.00 L46.37 32.02 L46.52 32.05 L46.73 32.13 L46.98 32.25 L47.27 32.42 L47.59 32.66 L47.93 32.97 L48.28 33.36 L48.63 33.82 L48.96 34.37 L49.25 35.00 L49.51 35.71 L49.70 36.50 L49.83 37.36 L49.88 38.28 L49.83 39.25 L49.68 40.27 L49.41 41.32 L49.03 42.38 L48.53 43.45 L47.90 44.50 L47.14 45.52 L46.25 46.50 L45.24 47.42 L44.11 48.25 L42.87 49.00 L41.53 49.63 L40.09 50.14 L38.58 50.52 L37.00 50.76 L35.38 50.84 L33.72 50.75 L32.05 50.51 L30.39 50.09 L28.75 49.50 L27.15 48.75 L25.62 47.83 L24.17 46.75 L22.82 45.53 L21.58 44.16 L20.48 42.68 L19.52 41.07 L18.72 39.38 L18.08 37.60 L17.62 35.77 L17.34 33.89 L17.25 32.00 L17.34 30.11 L17.62 28.23 L18.08 26.40 L18.72 24.62 L19.52 22.93 L20.48 21.32 L21.58 19.84 L22.82 18.47 L24.17 17.25 L25.62 16.17 L27.15 15.25 L28.75 14.50 L30.39 13.91 L32.05 13.49 L33.72 13.25 L35.37 13.16 L37.00 13.24 L38.58 13.48 L40.09 13.86 L41.53 14.37 L42.87 15.00 L44.11 15.75 L45.24 16.58 L46.25 17.50 L47.14 18.48 L47.90 19.50 L48.53 20.55 L49.03 21.62 L49.41 22.68 L49.68 23.73 L49.83 24.75 L49.88 25.72 L49.83 26.64 L49.70 27.50 L49.51 28.29 L49.25 29.00 L48.96 29.63 L48.63 30.18 L48.28 30.64 L47.93 31.03 L47.59 31.34 L47.27 31.58 L46.98 31.75 L46.73 31.87 L46.52 31.95 L46.37 31.98 L46.28 32.00 L46.25 32.00Z" fill="#ff8d47" />
@@ -106,7 +109,7 @@
           </p>
         </a>
 
-        <a class="card" href="double-pendulum/index.html">
+        <a class="card" href="double-pendulum/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <line
@@ -135,7 +138,7 @@
           </p>
         </a>
 
-        <a class="card" href="harmonograph/index.html">
+        <a class="card" href="harmonograph/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <path d="M32.00 41.57 L33.15 43.09 L34.30 44.55 L35.44 45.93 L36.57 47.22 L37.69 48.42 L38.80 49.52 L39.88 50.51 L40.95 51.39 L41.99 52.14 L43.00 52.77 L43.98 53.28 L44.93 53.65 L45.85 53.89 L46.72 54.00 L47.56 53.96 L48.35 53.80 L49.10 53.50 L49.80 53.06 L50.45 52.50 L51.05 51.81 L51.60 51.00 L52.10 50.07 L52.54 49.03 L52.92 47.88 L53.25 46.64 L53.52 45.31 L53.73 43.89 L53.88 42.40 L53.97 40.85 L54.00 39.24 L53.97 37.59 L53.88 35.90 L53.73 34.19 L53.52 32.47 L53.25 30.74 L52.92 29.02 L52.54 27.32 L52.10 25.65 L51.60 24.01 L51.05 22.43 L50.45 20.91 L49.80 19.45 L49.10 18.07 L48.35 16.78 L47.56 15.58 L46.72 14.48 L45.85 13.49 L44.93 12.61 L43.98 11.86 L43.00 11.23 L41.99 10.72 L40.95 10.35 L39.88 10.11 L38.80 10.00 L37.69 10.04 L36.57 10.20 L35.44 10.50 L34.30 10.94 L33.15 11.50 L32.00 12.19 L30.85 13.00 L29.70 13.93 L28.56 14.97 L27.43 16.12 L26.31 17.36 L25.20 18.69 L24.12 20.11 L23.05 21.60 L22.01 23.15 L21.00 24.76 L20.02 26.41 L19.07 28.10 L18.15 29.81 L17.28 31.53 L16.44 33.26 L15.65 34.98 L14.90 36.68 L14.20 38.35 L13.55 39.99 L12.95 41.57 L12.40 43.09 L11.90 44.55 L11.46 45.93 L11.08 47.22 L10.75 48.42 L10.48 49.52 L10.27 50.51 L10.12 51.39 L10.03 52.14 L10.00 52.77 L10.03 53.28 L10.12 53.65 L10.27 53.89 L10.48 54.00 L10.75 53.96 L11.08 53.80 L11.46 53.50 L11.90 53.06 L12.40 52.50 L12.95 51.81 L13.55 51.00 L14.20 50.07 L14.90 49.03 L15.65 47.88 L16.44 46.64 L17.28 45.31 L18.15 43.89 L19.07 42.40 L20.02 40.85 L21.00 39.24 L22.01 37.59 L23.05 35.90 L24.12 34.19 L25.20 32.47 L26.31 30.74 L27.43 29.02 L28.56 27.32 L29.70 25.65 L30.85 24.01 L32.00 22.43 L33.15 20.91 L34.30 19.45 L35.44 18.07 L36.57 16.78 L37.69 15.58 L38.80 14.48 L39.88 13.49 L40.95 12.61 L41.99 11.86 L43.00 11.23 L43.98 10.72 L44.93 10.35 L45.85 10.11 L46.72 10.00 L47.56 10.04 L48.35 10.20 L49.10 10.50 L49.80 10.94 L50.45 11.50 L51.05 12.19 L51.60 13.00 L52.10 13.93 L52.54 14.97 L52.92 16.12 L53.25 17.36 L53.52 18.69 L53.73 20.11 L53.88 21.60 L53.97 23.15 L54.00 24.76 L53.97 26.41 L53.88 28.10 L53.73 29.81 L53.52 31.53 L53.25 33.26 L52.92 34.98 L52.54 36.68 L52.10 38.35 L51.60 39.99 L51.05 41.57 L50.45 43.09 L49.80 44.55 L49.10 45.93 L48.35 47.22 L47.56 48.42 L46.72 49.52 L45.85 50.51 L44.93 51.39 L43.98 52.14 L43.00 52.77 L41.99 53.28 L40.95 53.65 L39.88 53.89 L38.80 54.00 L37.69 53.96 L36.57 53.80 L35.44 53.50 L34.30 53.06 L33.15 52.50 L32.00 51.81 L30.85 51.00 L29.70 50.07 L28.56 49.03 L27.43 47.88 L26.31 46.64 L25.20 45.31 L24.12 43.89 L23.05 42.40 L22.01 40.85 L21.00 39.24 L20.02 37.59 L19.07 35.90 L18.15 34.19 L17.28 32.47 L16.44 30.74 L15.65 29.02 L14.90 27.32 L14.20 25.65 L13.55 24.01 L12.95 22.43 L12.40 20.91 L11.90 19.45 L11.46 18.07 L11.08 16.78 L10.75 15.58 L10.48 14.48 L10.27 13.49 L10.12 12.61 L10.03 11.86 L10.00 11.23 L10.03 10.72 L10.12 10.35 L10.27 10.11 L10.48 10.00 L10.75 10.04 L11.08 10.20 L11.46 10.50 L11.90 10.94 L12.40 11.50 L12.95 12.19 L13.55 13.00 L14.20 13.93 L14.90 14.97 L15.65 16.12 L16.44 17.36 L17.28 18.69 L18.15 20.11 L19.07 21.60 L20.02 23.15 L21.00 24.76 L22.01 26.41 L23.05 28.10 L24.12 29.81 L25.20 31.53 L26.31 33.26 L27.43 34.98 L28.56 36.68 L29.70 38.35 L30.85 39.99 L32.00 41.57 Z" fill="none" stroke="#ff5252" stroke-width="1.5" />
@@ -147,7 +150,7 @@
           </p>
         </a>
 
-        <a class="card" href="falling-sand/index.html">
+        <a class="card" href="falling-sand/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <g fill="#deb85a">
@@ -169,7 +172,7 @@
           </p>
         </a>
 
-        <a class="card" href="reaction-diffusion/index.html">
+        <a class="card" href="reaction-diffusion/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <defs>
@@ -185,7 +188,7 @@
           </p>
         </a>
 
-        <a class="card" href="n-body/index.html">
+        <a class="card" href="n-body/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <path
@@ -219,7 +222,7 @@
           </p>
         </a>
 
-        <a class="card" href="game-of-life/index.html">
+        <a class="card" href="game-of-life/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <rect
@@ -246,7 +249,7 @@
           </p>
         </a>
 
-        <a class="card" href="boids/index.html">
+        <a class="card" href="boids/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <polygon points="10,32 17,30 22,24 24,40" fill="#E5FF52" />
@@ -260,7 +263,7 @@
           </p>
         </a>
 
-        <a class="card" href="particle-gravity/index.html">
+        <a class="card" href="particle-gravity/">
           <div class="card__emoji">
             <svg viewBox="0 0 64 64" aria-hidden="true">
               <g fill="none" stroke-width="2" stroke-linecap="round">
